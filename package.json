@@ -16,4 +16,21 @@
     "react-chartjs-2": "^5.2.0",
     "vite": "^4.5.1"
   }
+  "name": "iot_monitoring_frontend",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+  },
+  "dependencies": {
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^2.0.0",
+    "gh-pages": "^3.2.3",
+    "vite": "^4.0.0"
+  }
 }
